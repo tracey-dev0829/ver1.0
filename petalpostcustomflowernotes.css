@@ -1,0 +1,499 @@
+
+body {
+    margin: 0;
+    background-color: #FFF9F5;
+    font-family: Arial, sans-serif;
+}
+
+nav {
+    background-color: #F7DDE2;
+    width: 100%;
+}
+
+
+.main-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 25px;   
+    font-family: Verdana;
+    box-sizing: border-box; 
+    box-shadow: 0 0 5px 3px rgba(0, 0, 0, 0.2);
+    
+}
+
+
+.brand {
+    display: inline-block;
+    
+}
+
+.links-container {
+    display: flex;
+    align-items: center;
+    float: right;
+    position: relative;
+    bottom: 45px;
+}
+
+.link {
+    text-decoration: none;
+    margin: 0 10px;
+    color: #333;
+    font-family: Verdana;
+    position: relative;
+    bottom: 14px;
+}
+
+
+.link{
+    text-decoration: none;
+    font-family: Verdana;
+    margin: 0 10px;
+    color: #333;
+}
+
+
+.link:hover{
+    text-decoration: underline;
+    color: #5C8A63;
+}
+
+#btn1{
+    background-color: #ffb6c1;
+    padding: 4px 8px;
+    transition: 0.5s;
+    border-radius: 8px;
+}
+
+#btn1:hover{
+    text-decoration: underline;
+    padding: 4px 20px;
+    cursor: pointer;
+}
+
+#btn1:active{
+    transform: translateY(4px);
+}
+
+.motto{
+    margin-bottom: 8px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 100%;
+   height: 400px;
+   background-image: url(https://static.vecteezy.com/system/resources/previews/021/544/583/non_2x/pink-tulip-isolated-on-white-background-photo.jpg);
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+
+   display: flex;
+   justify-content: flex-end;
+   align-items: center;
+}
+
+
+ 
+.text-motto{
+    text-align: right;
+    color: #333;
+    padding-top: 8%;
+    margin: 0;
+    max-width: 600px;
+}
+
+.send-love{
+    margin: 0;
+    padding-right: 50px;
+}
+
+.flower-delivery{
+    padding-bottom: 44px;
+    margin: 0;
+    padding-right: 50px;
+}
+
+.on{
+    position: relative;
+    right: 20%;
+    padding: 12px 28px;
+    box-shadow: 0 0 5px 3px rgba(0, 0, 0, 0.1);
+    border-radius: 28px;
+    cursor: pointer;
+    font-family: arial;
+    background-color: #ffb6c1;
+}
+
+.on:hover{
+    color: #5C8A63;
+    text-decoration: underline;
+}
+
+.on:active{
+    transform: translateY(4px);
+}
+
+.about-container{
+    width: 95%;
+    margin: 10px;
+    border: 1px solid white;
+    padding-bottom: 10px;
+    position: relative;
+    top: 10px;
+    left: 15px;
+    box-shadow: 0 0 5px 3px rgba(0, 0, 0, 0.1);
+}
+
+.abt{
+    padding-left: 3% ;
+    color: #333;
+}
+
+.descript{
+    text-indent: 5%;
+    padding: 5px;
+}
+
+.lm{
+    text-decoration: none;
+}
+
+.lm:hover{
+    text-decoration: underline;
+}
+
+
+.mp{
+    margin-top: 70px;
+    text-indent: 3%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #333;
+}
+
+
+
+.viewmore{
+    display: none;
+}
+
+.main-product{
+    display: flex;
+}
+
+.products{
+    display: flex;
+    display: block;
+}
+
+
+
+.product-cards{
+    margin-left: 24px;
+    width: 220px;
+    background-color: white;
+    padding: 15px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 0 5px 3px rgba(0, 0, 0, 0.2);
+}
+
+.product-cards img{
+    width: 130px;
+    height: 130px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.btn2{
+    display: flex;
+    justify-content: center;
+    margin-top: 85px;
+    margin-left: 30px;
+}
+
+.circle-btn{
+    width: 75px;
+    height: 75px;
+    background-color: white;
+    box-shadow: 0 0 5px 3px rgba(0, 0, 0, 0.2);
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.circle-btn i{
+    font-size: 24px;
+    color: black;
+}
+
+.circle-btn:active{
+    transform: translateY(4px);
+}
+
+.cr{
+    margin: 10px;
+    text-indent: 1%;
+}
+
+
+@media(max-width: 450px){
+    body{
+        margin: 0;
+    }
+
+    nav{
+        padding:0;
+        background-color: #F7DDE2;
+    }
+
+    .main-container{
+        background-color: #F7DDE2;
+        width: 400px;
+        padding: 8px 16px;
+    }
+
+    .brand{
+        margin: 0;
+        font-size: 20px;
+    }
+
+    .link{
+        display: none;
+    }
+
+    .motto{
+        width: 400px;
+        margin-top: 8px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: relative;
+        bottom: 138px;
+    }
+
+    .link{
+        display: none;
+    }
+
+    .send-love{
+        font-size: 12px;
+        padding-top: 28px;
+        position: relative;
+        top: 14px;
+        left: 12px;
+    }
+
+    .flower-delivery{
+        font-size: 8px;
+        padding-top: -45px;
+        position: relative;
+        top: 10px;
+        left: 12px;
+    }
+
+    .on{
+        font-size: 6px;
+        padding: 4px 8px;
+        position: relative;
+        top: -30px;
+        margin: 0;
+    }
+
+    .about-container{
+        width: 354px;
+        margin-left: 10px;
+        position: relative;
+        top: -260px;
+        font-size: 8px;
+    }
+
+    .mp{
+        font-size: 12px;
+        display: inline-block;
+        text-indent: 14px;
+        position: relative;
+        top: -300px;
+    }
+
+    .viewmore{
+        font-size: 12px;
+        display: inline-block;
+        justify-content: space-between;
+        padding-left: 164px;
+        position: relative;
+        top: -300px;
+    }
+
+    .viewmore:hover{
+        text-decoration: underline;
+    }
+
+    .products{
+        margin: 0;
+        display: block;
+        margin-top: -300px;
+    }
+
+    .products-2{
+    display: flex;
+    gap: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+
+    }
+
+    .product-cards{
+        margin-left: 50px;
+        margin-top: 24px;
+        font-size: 8px;
+        width: 110px;
+        padding: 5px;
+    }
+
+    .product-cards img{
+        width: 80px;
+        height: 80px;
+    }
+
+    .circle-btn{
+        display: none;
+    }
+}
+
+
+@media(max-width: 320px){
+    body{
+        margin: 0;
+    }
+
+    nav{
+        padding:0;
+        background-color: #F7DDE2;
+    }
+
+    .main-container{
+        background-color: #F7DDE2;
+        width: 380px;
+        padding: 8px 16px;
+    }
+
+    .brand{
+        margin: 0;
+        font-size: 20px;
+    }
+
+    .link{
+        display: none;
+    }
+
+    .motto{
+        width: 380px;
+        margin-top: 2px;
+        background-size: contain;
+        height: 400px;
+        background-repeat: no-repeat;
+        position: relative;
+        bottom: 138px;
+    }
+
+    .link{
+        display: none;
+    }
+
+    .send-love{
+        font-size: 12px;
+        padding-top: 28px;
+        position: relative;
+        top: 14px;
+        left: 34px;
+    }
+
+    .flower-delivery{
+        font-size: 8px;
+        padding-top: -45px;
+        position: relative;
+        top: 5px;
+        left: 34px;
+    }
+
+    .on{
+        font-size: 6px;
+        padding: 4px 8px;
+        position: relative;
+        top: -33px;
+        margin: 0;
+    }
+
+    .about-container{
+        width: 324px;
+        margin-left: 4px;
+        position: relative;
+        top: -260px;
+        font-size: 8px;
+    }
+
+    .mp{
+        font-size: 10px;
+        display: inline-block;
+        text-indent: 18px;
+        position: relative;
+        top: -300px;
+    }
+
+    .viewmore{
+        font-size: 12px;
+        justify-content: space-between;
+        padding-left: 164px;
+        position: relative;
+        display: inline-block;
+        position: relative;
+        top: -328px;
+        left: 134px;
+    }
+
+    .viewmore:hover{
+        text-decoration: underline;
+    }
+
+    .products{
+        margin: 0;
+        display: block;
+        margin-top: -300px;
+    }
+
+    .products-2{
+    display: flex;
+    gap: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+
+    }
+
+    .product-cards{
+        margin-left: 45px;
+        margin-top: 24px;
+        font-size: 8px;
+        width: 110px;
+        padding: 5px;
+    }
+
+    .product-cards img{
+        width: 80px;
+        height: 80px;
+    }
+
+    .circle-btn{
+        display: none;
+    }
+
+    .cr{
+        font-size: 12px;
+    }
+}   
